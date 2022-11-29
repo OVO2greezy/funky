@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+h1{
+    font-size: 100px;
+    color: white;
+}
+
+.heading{
+    margin-top: 100px;
+    color: white;
+    font-size: 100px;
+}
+
+p{
+    color: white;
+    margin-top: 40px;
+}
+
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(
+        /assets/test/pexels-bruno-joseph-12179283.jpg
+    );
+    background-size: cover;
+    background-position: center;
+}
+
+
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+.logo{
+    font-size: 100px;
+    color: white;
+    font-weight: bold;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.navbar ul li::after{
+    content: "";
+    height: 3px;
+    width: 0;
+    background: gray;
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover:after{
+    width: 100%;
+}
+
+
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: white;
+}
+
+.content h1{
+    font-size: 40px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+button{
+    width: 200px;
+    padding: 15px;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid white;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+span{
+    background: gray;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 500ms;
+}
+
+button:hover span{
+    width: 100%;
+}
+
+button:hover{
+    border: none;
+}
+
+/*BALI*/
+
+#BALI{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(/assets/test/pexels-nick-wehrli-5282269.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+
+.row{
+    width: 100%;
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.navbar ul .list::after{
+    content: "";
+    height: 3px;
+    width: 0;
+    background: royalblue;
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    transition: 0.5s;
+}
+
+.navbar ul .list:hover:after{
+    width: 100%;
+}
+
+/*EGYPT*/
+
+#EGYPT{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(/assets/test/pexels-marcel-winger-2445852.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.navbar ul .life::after{
+    content: "";
+    height: 3px;
+    width: 0;
+    background: rgb(156, 131, 3);
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    transition: 0.5s;
+}
+
+.navbar ul .life:hover:after{
+    width: 100%;
+}
+
+/*GREECE*/
+
+#GREECE{
+        height: 100vh;
+        background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(/assets/test/pexels-aleksandar-pasaric-1285625.jpg);
+        background-size: cover;
+        background-position: center;
+}
+
+.navbar ul .lile::after{
+    content: "";
+    height: 3px;
+    width: 0;
+    background: white;
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    transition: 0.5s;
+}
+
+.navbar ul .lile:hover:after{
+    width: 100%;
+}
+
+/*UAE*/
+
+#UAE{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(/assets/test/pexels-aleksandar-pasaric-823696.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+/*PORTUGAL*/
+
+#PORTUGAL{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(/assets/test/pexels-lisa-fotios-1559908.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+/*THAILAND*/
+
+#THAILAND{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(/assets/test/pexels-erik-karits-3732494.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+/*SOUTHAFRICA*/
+
+#SOUTHAFRICA{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(/assets/test/pexels-erik-karits-3732494.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+/*AMERICA*/
+
+#AMERICA{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(/assets/test/pexels-matthew-devries-2526044.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+/*END PAGE*/
+
+.banners{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(
+        /assets/test/pexels-joshua-davidson-14495343.jpg
+    );
+    background-size: cover;
+    background-position: center;
+}
+
+@media(max-width:576px) {
+
+    h1{
+        font-size: 20px;
+    }
+
+    .logo{
+        font-size: 30px;
+    }
+
+
+    .content h1{
+        font-size: 20px;
+    }
+
+    p{
+        font-size: 15px;
+    }
+
+    .row{
+        max-width: 300px;
+    }
+
+    a{
+        font-size: 12px;
+    }
+
+ 
+}
+
+
+
